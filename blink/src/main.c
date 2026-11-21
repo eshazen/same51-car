@@ -94,6 +94,6 @@ int main(void)
 
     for (;;) {
         LED_PORT.PORT_OUTTGL = LED_MASK;
-        delay_ms(500);
+        delay_ms(100);
     }
 }
